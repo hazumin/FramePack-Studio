@@ -1111,5 +1111,6 @@ interface.launch(
     server_name=args.server,
     server_port=args.port,
     share=args.share,
-    inbrowser=args.inbrowser
+    inbrowser=args.inbrowser,
+    allowed_paths=["/FramePack-Studio/outputs"]
 )
